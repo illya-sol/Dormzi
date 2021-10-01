@@ -1,16 +1,15 @@
-import React from "react";
-
-import { Container, Header, Main, Footer, Cards } from "@components";
+import { Cards, Container, Footer, Header, Main } from '@components'
+import React from 'react'
 
 const Home: React.FC = () => {
-    return (
-        <Container>
-            <Header />
-            <Main />
-            <Cards />
-            <Footer />
-        </Container>
-    );
-};
+   return (
+      <Container>
+         <Header />
+         <Main />
+         <Cards />
+         <Footer />
+      </Container>
+   )
+}
 
-export default Home;
+export default Home
