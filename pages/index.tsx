@@ -1,4 +1,4 @@
-import { Cards, Container, Footer, Header, Main } from '@components'
+import { Cards, Container, Header, Main } from '@components'
 import React from 'react'
 
 const Home: React.FC = () => {
@@ -7,7 +7,6 @@ const Home: React.FC = () => {
          <Header />
          <Main />
          <Cards />
-         <Footer />
       </Container>
    )
 }

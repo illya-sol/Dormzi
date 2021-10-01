@@ -5,15 +5,15 @@ export const Main: React.FC = () => {
    return (
       <div className="text-center font-light py-5 bg-gray-700">
          <div className="container mx-auto">
-            <h1 className="text-white text-8xl mb-2">superplate</h1>
-            <p className="text-lg text-white mb-3">
-               The frontend boilerplate with superpowers!
+            <h1 className="text-white text-7xl mb-2">Made using SuperPlate</h1>
+            <p className="text-xl text-white mb-3">
+               Awesome boilerplate i prepaired for Dormzi
             </p>
-            <Button type="button">
-               <a href="https://pankod.github.io/superplate/" target="_blank">
-                  Docs
-               </a>
-            </Button>
+            <a href="https://dormzi.com/" target="_blank">
+               <Button type="button">
+                  <p className="text-3xl">Dormzi Url</p>
+               </Button>
+            </a>
          </div>
       </div>
    )

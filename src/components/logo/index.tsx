@@ -1,8 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
 
 export const Logo: React.FC = () => {
-   return (
-      <Image src="/icons/nextjs-icon.svg" alt="nextjs" width="96" height="58" />
-   )
+   return <h1 className="font-Choplin text-white text-7xl py-2">Dormzi App</h1>
 }
