@@ -12,16 +12,10 @@ export const Button: React.FC<IButton> = ({
 }) => {
    return (
       <button
-         className={`py-2 px-4 rounded bg-blue-500 hover:bg-blue-600 focus:outline-none ring-opacity-75 ring-blue-400 focus:ring text-white text-lg ${className}`}
+         className={`m-auto md:m-0 md:my-auto w-48 md:h-24 my-3 py-4 px-2 md:px-6 rounded-full bg-blue-500 hover:bg-blue-600 focus:outline-none ring-opacity-75 ring-blue-400 focus:ring text-white text-4xl ${className}`}
          {...rest}
       >
-         <div className="flex items-center">
-            <img
-               className="align-left rounded-full mr-4 h-16"
-               src="/icons/Dormzi.png"
-            />
-            {children}
-         </div>
+         {children}
       </button>
    )
 }
